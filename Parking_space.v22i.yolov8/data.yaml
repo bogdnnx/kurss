@@ -1,0 +1,14 @@
+train: /home/boga/PycharmProjects/kurs5sem/Parking_space.v22i.yolov8/train/images
+val: /home/boga/PycharmProjects/kurs5sem/Parking_space.v22i.yolov8/valid/images
+test: /home/boga/PycharmProjects/kurs5sem/Parking_space.v22i.yolov8/test/images
+
+
+nc: 2
+names: ['empty', 'occupied']
+
+roboflow:
+  workspace: my-project-ppguz
+  project: parking-space-uffuo
+  version: 22
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-project-ppguz/parking-space-uffuo/dataset/22
